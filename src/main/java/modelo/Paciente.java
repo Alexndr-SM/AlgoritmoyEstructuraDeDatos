@@ -29,7 +29,6 @@ public class Paciente {
         this.correo = correo;
     }
 
-    // Getters y Setters
     public int getIdPaciente() { return idPaciente; }
     public void setIdPaciente(int idPaciente) { this.idPaciente = idPaciente; }
 
