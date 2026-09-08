@@ -9,9 +9,6 @@ public class DatabaseConnection {
     private static final String USER = "postgres";
     private static final String PASSWORD = "Grupito123";
 
-    // NO guardar la conexión estática - usar una nueva cada vez
-    // Esto evita problemas de conexiones cerradas
-
     public static Connection getConnection() throws SQLException {
         try {
             Class.forName("org.postgresql.Driver");
